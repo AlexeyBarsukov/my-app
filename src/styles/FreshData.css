@@ -1,0 +1,57 @@
+h1{
+    color: rgb(165, 164, 164);
+}
+
+.fresh{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+
+.selectCurrency {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    width: 800px;
+
+}
+
+.selectCurrency span{
+    color:rgb(7, 211, 197);
+    font-weight: 800;
+    font-size: x-large;
+}
+
+.select_exchange_rates{
+    margin-left: 25px;
+    width: 180px;
+    height: 30px;
+    background: linear-gradient(#4ECDC4, #556270);
+    border: none;
+    color: rgb(0, 0, 0);
+    margin-bottom: 35px;
+    padding: 2px;
+    border-radius: 15px;
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.select_exchange_rates:hover{
+    opacity: 0.9;
+}
+.select_exchange_rates:focus{
+    outline: none;
+}
+
+.list-group{
+    list-style-type: none;
+    display: grid;
+    grid-template: 2fr 2fr 2fr 2fr 2fr 2fr/3fr 3fr 3fr 3fr 3fr;
+    color: rgb(223, 238, 238);
+    font-family: monospace;
+}

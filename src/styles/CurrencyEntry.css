@@ -1,0 +1,86 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+.group{
+    width: 180px;
+    margin: 0 auto 20px;
+    display: flex;
+    flex-direction: column;
+    background: none;
+    
+}
+.select_converter{
+    height: 30px;
+    background: linear-gradient(#4ECDC4, #556270);
+    border: none;
+    color: rgb(0, 0, 0);
+    margin-bottom: 35px;
+    padding: 2px;
+    border-radius: 15px;
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+
+}
+
+option{
+    background-color: rgb(122, 120, 120);
+}
+
+.select_converter:hover{
+    opacity: 0.8;
+}
+
+.select_converter:focus{
+    outline: none;
+}
+
+.input_converter{
+    border-radius: 10px;
+    padding: 12px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 800;
+    color:rgb(255, 255, 255);
+    background: linear-gradient(#5d6d6c, #556270);
+}
+
+
+.input_converter:focus{
+    outline: none;
+}
+.input_converter:hover{
+    opacity: 0.9;
+}
+
+
+
+/* input, select {
+    background: rgb(138, 138, 138);
+    border: none;
+    color: rgb(0, 0, 0);
+}
+input{
+    opacity: 0.9;
+    border-radius:2px;
+    padding-left: 10px;
+}
+
+input:hover{
+    background: gray;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(12, 12, 12);
+
+}
+
+select{
+    font-weight: 400;
+    color: rgb(71, 51, 1);
+    padding: 15px;
+} */
+
